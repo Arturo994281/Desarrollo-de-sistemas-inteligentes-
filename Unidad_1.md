@@ -27,3 +27,14 @@ Una tecnología que ayuda a hacer mas eficiente alguna acción en alguna empresa
 2)Un sistema inteligente es un conjunto de tecnología industrial avanzada, sensores y algoritmos, que trabajan conjuntamente para llevar a cabo tareas específicas de manera autónoma y eficiente. Estos sistemas son capaces de percibir su entorno, procesar información y tomar decisiones con poca o ninguna intervención humana.
 
 3)Los sistemas inteligentes se definen como aquellos que presentan un comportamiento externo similar en algún aspecto a la inteligencia humana o animal. Se caracterizan por su capacidad para representar, procesar y modificar de forma explícita conocimiento sobre un problema, y para mejorar su desempeño con la experiencia.
+
+17/09/26
+●Basados en reglas y conocimiento: el conocimiento se codifica de forma explícita como hechos y reglas, y un motor de inferencia razona con elos para legar a conclusiones.
+● Aprendizaje automático (machine learning): el sistema induce su función de decisión a partir de datos de ejemplo, en vez de que un humano le escriba regla por regla.  Tres formas principales: supervisado, no supervisado, por refuerzo. Ejem: TensorFlor y PyTorch 
+● Redes neuronales y aprendizaje profundo: modelo compuesto por capas de unidades interconectadas que aprende representaciones cada vez más abstractas de los datos.  Herramientas: TensorFlow, PyTorch, Keras, Caffe, Matlab 14 Septiembre 2026
+● Sistemas difusos (fuzzy logic): sistema que maneja grados de pertenencia entre 0 y 1, en vez de una lógica estrictamente verdadero/falso
+● Algoritmos genéticos y computación evolutiva:Metodo de busqueda que evoluciona una poblacion de soluciones candidatas mediante seleccion, cruce y mutacion, imitando la seleccion natural.
+● Sistemas multiagente: sistema compuesto por varios agentes autonomos que interactuan entre si, cooperando o compitiendo, detro de un mismo entorno.
+● Razonamiento basado en casos (case-based reasoning):resuelve un problema nuevo recuperando el caso mas parecido ya resuelto y adaptando su solucion.
+  
+
