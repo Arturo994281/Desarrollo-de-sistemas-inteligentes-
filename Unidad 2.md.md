@@ -82,6 +82,75 @@ Entre sus conjuntos pequeños o de prueba se encuentran:
 
 **-Falso negativo:** ocurre cuando una prueba o situación indica que algo no está presente o no sucede, pero en realidad sí está presente o sí sucede.
 
+**Caja blanca = podemos entender el proceso interno.**  
+**Caja negra = vemos entrada y salida, pero el proceso interno es difícil de explicar.**
+
+DEFINICION Y COMO FUNCIONA.
+### 1. Árbol de decisión
+
+**Definición:** Es un modelo que toma decisiones mediante preguntas o condiciones, formando una estructura parecida a un árbol.
+
+**Cómo funciona:** Va haciendo preguntas sobre los datos, por ejemplo: “¿el tamaño es mayor a 10?”. Dependiendo de la respuesta, sigue por una rama u otra hasta llegar a una respuesta final.
+
+**Caso de uso:** **Diagnóstico médico.** Un hospital puede usarlo para clasificar a un paciente como de bajo, medio o alto riesgo dependiendo de sus síntomas, edad y resultados de estudios.
+
+### 2. Regresión logística
+
+**Definición:** Es un modelo que calcula la probabilidad de que un dato pertenezca a una categoría.
+
+**Cómo funciona:** Analiza las características de los datos y calcula una probabilidad entre 0 y 1. Después utiliza un límite para decidir la categoría.
+
+**Caso de uso:** **Aprobación de créditos.** Un banco puede calcular la probabilidad de que una persona pague o no un préstamo usando sus ingresos, historial crediticio y deudas.
+
+### 3. K vecinos más cercanos (K-NN)
+
+**Definición:** Es un modelo que clasifica un dato según los datos que están más cerca de él.
+
+**Cómo funciona:** Busca los **K datos más cercanos** y observa a qué categoría pertenecen la mayoría. La categoría que tenga más vecinos es la que se asigna al nuevo dato.
+
+**Caso de uso**: **Recomendación de productos.** Una tienda en línea puede buscar clientes con gustos similares a los del usuario y recomendarle productos que esos clientes compraron.
+
+### 4. Naive Bayes
+
+**Definición:** Es un modelo que utiliza probabilidades para determinar a qué categoría pertenece un dato.
+
+**Cómo funciona:** Calcula qué tan probable es cada categoría tomando en cuenta las características que tiene el dato. Después selecciona la categoría con mayor probabilidad.
+
+**Caso de uso:** **Detección de correos spam.** Analiza las palabras y características de un correo y calcula si probablemente es spam o un correo normal.
+
+### 5. SVM
+
+**Definición:** SVM significa **Support Vector Machine** y es un modelo que busca separar diferentes categorías de datos.
+
+**Cómo funciona:** Busca una línea o frontera que separe los grupos de la mejor manera posible, dejando la mayor distancia entre los grupos.
+
+**Caso de uso**: **Reconocimiento de imágenes.** Puede utilizarse para clasificar imágenes, por ejemplo, distinguir entre diferentes tipos de células en imágenes médicas.
+
+### 6. Bosque aleatorio
+
+**Definición:** Es un modelo que utiliza varios árboles de decisión al mismo tiempo para obtener una respuesta.
+
+**Cómo funciona:** Crea muchos árboles de decisión. Cada árbol da su propia respuesta y después se combinan las respuestas para obtener la decisión final, normalmente mediante votación.
+
+**Caso de uso**: **Detección de fraudes bancarios.** Utiliza varios árboles para analizar cosas como cantidad, ubicación, hora y frecuencia de las compras y determinar si una transacción parece normal o sospechosa.
+
+### 7. Red neuronal
+
+**Definición:** Es un modelo inspirado en la forma en que funcionan las neuronas del cerebro. Está formado por nodos o “neuronas” conectados entre sí.
+
+**Cómo funciona:** Recibe los datos de entrada, los procesa mediante varias capas y va aprendiendo qué características son importantes para producir una salida.
+
+**Caso de uso:** **Reconocimiento facial.** Una aplicación puede analizar una imagen del rostro y compararla con patrones aprendidos para identificar a una persona.
+
+REFERENCIAS.
+
+- Árbol de decisión — IBM: [https://www.ibm.com/think/topics/decision-trees](https://www.ibm.com/think/topics/decision-trees)
+- Regresión logística — IBM: [https://www.ibm.com/think/topics/classification-machine-learning](https://www.ibm.com/think/topics/classification-machine-learning?utm_source=chatgpt.com)
+- K-NN — Scikit-learn: [https://scikit-learn.org/stable/modules/neighbors.html](https://scikit-learn.org/stable/modules/neighbors.html)
+- Naive Bayes — Scikit-learn: [https://scikit-learn.org/stable/modules/naive_bayes.html](https://scikit-learn.org/stable/modules/naive_bayes.html?utm_source=chatgpt.com)
+- SVM — Scikit-learn: [https://scikit-learn.org/stable/modules/svm.html](https://scikit-learn.org/stable/modules/svm.html)
+- Bosque aleatorio — IBM: [https://www.ibm.com/think/topics/random-forest](https://www.ibm.com/think/topics/random-forest)
+- Red neuronal — IBM: [https://www.ibm.com/think/topics/neural-networks](https://www.ibm.com/think/topics/neural-networks)
 
 
 
