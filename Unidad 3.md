@@ -55,3 +55,9 @@ Utiliza una cola de prioridad.
 **Complejidad en tiempo:** mide cuánto trabajo o cuántos nodos puede necesitar explorar un algoritmo.
 
 **Complejidad en espacio:** mide cuánta memoria necesita para guardar los nodos durante la búsqueda.
+
+Busqueda en amplitud:busca llegar a un punto revisando primero todos los puntos más cercanos al inicio y después los siguientes, hasta encontrar el destino.
+
+![[Pasted image 20261008181258.png]]Busqueda primero el mejor:busca llegar a un punto eligiendo en cada paso el camino que parece acercarlo más al destino, usando una estimación.
+![[Pasted image 20261008181549.png]]Dijkstra:busca la ruta más barata desde un punto hasta otro, tomando en cuenta el costo de cada camino para encontrar el menor costo total.
+![[Pasted image 20261008181845.png]]
