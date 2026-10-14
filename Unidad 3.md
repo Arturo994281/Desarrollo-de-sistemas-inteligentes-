@@ -60,4 +60,31 @@ Busqueda en amplitud:busca llegar a un punto revisando primero todos los puntos 
 
 ![[Pasted image 20261008181258.png]]Busqueda primero el mejor:busca llegar a un punto eligiendo en cada paso el camino que parece acercarlo más al destino, usando una estimación.
 ![[Pasted image 20261008181549.png]]Dijkstra:busca la ruta más barata desde un punto hasta otro, tomando en cuenta el costo de cada camino para encontrar el menor costo total.
-![[Pasted image 20261008181845.png]]
+![[Pasted image 20261008181845.png
+
+
+
+**ACTIVIDAD 3.2**
+
+- **Algoritmo:** A*
+- **Longitud del camino:** **21**
+- **Tiempo:** **0.4000 ms**
+- **Operaciones:** **197**
+En cada movimiento calcula qué camino parece ser el mejor usando:
+
+**f(n) = g(n) + h(n)**
+
+![[Pasted image 20261014155208.png]]
+
+
+
+
+- **Algoritmo:** Ciego
+- **Longitud:** **16**
+- **Tiempo:** **1.8000 ms**
+- **Operaciones:** **973**
+
+encontró un camino de **16 movimientos** desde el punto verde hasta el rojo.
+![[Pasted image 20261014155800.png]]![[Pasted image 20261014155811.png]]
+
+la diferencia es que **a*** usa una heurística para tratar de irse por el camino más conveniente, y la ciega no tiene esa ayuda y va checando los caminos por niveles**, por eso la ciega hizo más operaciones y tardó más.
