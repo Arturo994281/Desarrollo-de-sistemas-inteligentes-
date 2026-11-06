@@ -156,3 +156,18 @@ Por eso, las GPU permitieron entrenarlas más rápido y las redes neuronales imp
 
 ACT 3.5
 ![[Pasted image 20261021162700.png]]
+
+
+
+Actividad 3.6
+
+**Tabla comparativa de motores de inferencia**
+
+|   |   |   |
+|---|---|---|
+|**Aspecto**|**Mamdani**|**Takagi-Sugeno**|
+|Definición|Es un motor de inferencia difusa que utiliza conjuntos difusos tanto en las condiciones como en los resultados de las reglas. Su salida es un conjunto difuso que después se convierte en un valor numérico.|Es un motor de inferencia difusa que utiliza conjuntos difusos en las condiciones, pero sus resultados son funciones matemáticas o valores numéricos.|
+|Ventajas|Es fácil de entender y diseñar. Se parece más al razonamiento humano. Permite representar reglas mediante palabras como bajo, medio y alto.|Tiene mayor eficiencia computacional. Sus resultados son numéricos directamente. Es útil para sistemas de control y modelos matemáticos.|
+|Desventajas|Requiere más cálculos para obtener el resultado final. Puede ser más lento cuando tiene muchas reglas.|Es más complicado de diseñar y entender. Sus funciones matemáticas pueden ser difíciles de definir correctamente.|
+|Tipo de salida|Conjunto difuso que necesita un proceso de desfusificación.|Valor numérico o función matemática.|
+|Uso principal|Sistemas de control, electrodomésticos y toma de decisiones.|Control automático, predicciones y modelado de sistemas.|
